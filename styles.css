@@ -34,7 +34,7 @@ nav ul li a:hover {
 }
 main {
   padding: 10px;
-  text-align: center; /* Centraliza o conteúdo dentro do main */
+  text-align: center;
 }
 h2 {
   color: #bbb;
@@ -43,12 +43,12 @@ p {
   color: #bbb;
 }
 .post {
-  margin: 20px auto; /* Centraliza cada post e adiciona margem superior e inferior */
+  margin: 20px auto;
   padding: 10px;
   border: 1px solid #1e2020;
-  background-color: transparent; /* Remove a cor de fundo */
-  width: 60%; /* Define a largura dos posts */
-  box-sizing: border-box; /* Inclui padding e border na largura total */
+  background-color: transparent;
+  width: 60%;
+  box-sizing: border-box;
 }
 .post h2 {
   font-size: 18px;
