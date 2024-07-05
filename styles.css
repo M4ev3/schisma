@@ -2,15 +2,17 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url("images/background.png");
+  background: url("images/background.png") no-repeat center center fixed;
   background-size: cover;
   text-align: left;
 }
+
 header {
   color: #5e0c0c;
   text-align: center;
   padding: 10px;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -18,46 +20,75 @@ nav ul {
   text-align: center;
   background-color: #1e2020;
 }
+
 nav ul li {
   display: inline;
   margin-right: 5px;
 }
+
 nav ul li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   padding: 5px 10px;
   background-color: #5e0c0c;
   border-radius: 3px;
 }
+
 nav ul li a:hover {
   background-color: #bbb;
 }
+
 main {
   padding: 10px;
   text-align: center;
+  position: relative;
 }
+
 h2 {
   color: #bbb;
 }
+
 p {
   color: #bbb;
 }
+
 .post {
   margin: 20px auto;
   padding: 10px;
   border: 1px solid #1e2020;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 60%;
   box-sizing: border-box;
 }
+
 .post h2 {
   font-size: 18px;
   margin-bottom: 5px;
 }
+
 .post p {
   font-size: 14px;
   margin-bottom: 5px;
 }
+
+.postText {
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.postImages {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.03;
+}
+
 .sobre {
   padding-left: 300px;
   padding-right: 300px;
